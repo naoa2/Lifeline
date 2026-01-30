@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>高度数値解析システム - High Precision Math Analyzer</title>
+    <style>
+        /* 計算画面の見た目：わざと地味にしています */
+        body { background: #fdfdfd; color: #333; font-family: 'Courier New', monospace; margin: 20px; font-size: 14px; }
+        #output { border: 1px solid #ccc; padding: 15px; height: 80vh; overflow-y: hidden; background: #fff; line-height: 1.6; }
+        .success { color: #28a745; font-weight: bold; }
+        .info { color: #007bff; }
+    </style>
+</head>
+<body>
+    <h3>Matrix Computing Core v4.0.21</h3>
+    <hr>
+    <!-- 計算ログが表示される場所 -->
+    <div id="output">Initializing variables...</div>
+
+    <!-- 司令塔（core.js）を読み込む -->
+    <script src="core.js"></script>
+</body>
+</html>
